@@ -1,0 +1,47 @@
+{
+    "type": "object",
+    "properties": {
+        "en_US": {
+            "type": "object",
+            "properties": {
+                "header": { "type": "string" },
+                "subheader": { "type": "string" },
+                "body": {
+                    "type": "object",
+                    "properties": {
+                        "text": { "type": "string" },
+                        "bullets": {
+                            "type": "array",
+                            "items": { "type": "string" }
+                        }
+                    }
+                },
+                "resources": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "category": { "type": "string" },
+                            "name": { "type": "string" },
+                            "url": { "type": "string" },
+                            "description": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "contentType": {
+                                            "type": "string",
+                                            "enum": ["phone", "link"] 
+                                        },
+                                        "content": { "type": "string" },
+                                        "contentLink": { "type": "string" }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "en_US": {
+        "header": "Mental Health Resources",
+        "subheader": "Where you can get help for yourself and others.",
+        "body": {
+            "text": "If you or someone you know is struggling or thinking about self-harm, there are ways to get help. Below is a list of organizations that offer support for anyone feeling distressed, experiencing feelings of depression or anxiety, or thinking about self harm or suicide.",
+            "bullets": [
+                "If you’re concerned about self-harm, drug or alcohol usage, or depression, please talk to someone or reach out to one of the organizations listed below for professional support.",
+                "If you or someone you know are having thoughts of suicide, please seek support as soon as possible. Some resources and helplines are listed below."
+            ]
+        },
+        "resources": [
+            {
+                "category": "WORLDWIDE",
+                "name": "Befrienders",
+                "url": "befrienders.org",
+                "description": [
+                    {
+                        "contentType": "text",
+                        "content": "This service is available globally and they can search for helplines for countries that are not listed below."
+                    }
+                ]
+            },
+            {
+                "category": "UNITED STATES OF AMERICA",
+                "name": "The National Suicide Prevention Lifeline",
+                "url": "suicidepreventionlifeline.org",
+                "description": [
+                    {
+                        "contentType": "text",
+                        "content": "This is available to anyone in crisis, feeling suicidal or in emotional distress. You can speak to them online or over the phone by calling "
+                    },
+                    {
+                        "contentType": "phone",
+                        "contentLink": "1-800-273-8255",
+                        "content": "1-800-273-8255"
+                    }
+                ]
+            }
+        ]
+    }
+}
