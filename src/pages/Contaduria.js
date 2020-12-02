@@ -8,6 +8,7 @@ import OneLiner from '../components/DestacadosContaduria'
 
 const conflictos = ['Societarios', 'Económicos', 'Patrimoniales', 'Laborales', 'Fiscales', 'Previsionales', 'Comerciales']
 export default function Contaduria() {
+  window.scrollTo( 0, 0);
   return (
     <div  className="App">
       <Navbar />

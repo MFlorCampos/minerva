@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import OneLiner from '../components/DestacadosFinanzas'
 
 export default function Imagen() {
+  window.scrollTo( 0, 0);
   return (
     <div>
       <Navbar />
