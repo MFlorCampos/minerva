@@ -1,25 +1,23 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import OneLiner from '../components/DestacadosContaduria'
+import OneLiner from '../components/DestacadosFinanzas'
 
-const conflictos = ['Societarios', 'Económicos', 'Patrimoniales', 'Laborales', 'Fiscales', 'Previsionales', 'Comerciales']
-export default function Contaduria() {
+export default function Finanzas() {
   return (
-    <div  className="App">
+    <div>
       <Navbar />
-      
+
       {/* SECTION LABEL */}
       <div id="top" />
       {/* WRAPPER */}
       <div className="wrapper">
-        <div className="header-subpage">
+        <div className="header-template">
           <div className="container header-container">
             <div className="col-lg-12 header-title-section">
-              <h1 className="header-title-subpage" data-aos="zoom-in">Contaduría</h1>
+              <h1 className="header-title-subpage" data-aos="zoom-in">Tecnología en Alimentos</h1>
               <p className="header-title-text" data-aos="zoom-in">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur id sapien nisl. Nulla sit amet dapibus est. Fusce
@@ -52,17 +50,23 @@ export default function Contaduria() {
       <div className="services-section">
           <div className="container services-container">
             <div className="col-lg-8 services-title-section">
-              <h2 className="services-title">Prevención y resolución de conflictos</h2>
+              <h2 className="services-title">Lorem ipsum dolor sit amet</h2>
               <p className="services-text">
-                
-                <ul>
-                  {conflictos.map(e => <li data-aos="fade-down">{e}</li>)}
+              <ul>
+                  <li data-aos="fade-down">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
+                  </li>
+                  <li data-aos="fade-down">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
+                  </li>
+                  <li data-aos="fade-down">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
+                  </li>
                 </ul>
-
               </p>
             </div>
             <div className="col-lg-4 services-header-img-section" data-aos="flip-left">
-              <svg className="icon-prevencion"></svg>
+              <img src="https://via.placeholder.com/300" alt="placeholder"></img>
             </div>
           </div>
         </div>
@@ -72,20 +76,20 @@ export default function Contaduria() {
         <div className="mision-section">
           <div className="container mision-container">
             <div className="col-lg-4 mision-header-img-section" data-aos="flip-left">
-              <svg className="icon-decision"></svg>
+              <img src="https://via.placeholder.com/300" alt="placeholder"></img>
             </div>
             <div className="col-lg-8">
-              <h2 className="mision-title">Para que puedan tomar las mejores decisiones</h2>
+              <h2 className="mision-title">Lorem ipsum dolor sit amet</h2>
               <p className="mision-text">
               <ul>
                   <li data-aos="fade-down">
-                  Procesamiento de datos, preparación, elaboración y análisis crítico de informes. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl.  
                   </li>
                   <li data-aos="fade-down">
-                    Presentación de declaraciones y liquidaciones. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
                   </li>
                   <li data-aos="fade-down">
-                    Confección de Estados Contables externos e informes internos
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
                   </li>
                 </ul>
               </p>
@@ -96,22 +100,22 @@ export default function Contaduria() {
         <div className="services-section">
           <div className="container services-container">
             <div className="col-lg-8 services-title-section">
-              <h2 className="services-title">Institucionalizamos procesos de trabajo </h2>
+              <h2 className="services-title">Lorem ipsum dolor sit amet</h2>
               <p className="services-text">
                 
                 <ul>
-                  <li data-aos="fade-down">Sistemas informáticos.</li>
-                  <li data-aos="fade-down">Redes de comunicación. </li>
-                  <li data-aos="fade-down">Captura de datos en la fuente.</li>
-                  <li data-aos="fade-down">Administración de bases de datos.</li>
-                  <li data-aos="fade-down">Informes en tiempo real.</li>
+                  <li data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. </li>
+                  <li data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. </li>
+                  <li data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. </li>
+                  <li data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. </li>
+                  <li data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl.</li>
 
                 </ul>
 
               </p>
             </div>
             <div className="col-lg-4 services-header-img-section" data-aos="flip-left">
-              <svg className="icon-procesos"></svg>
+              <img src="https://via.placeholder.com/300" alt="placeholder"></img>
             </div>
           </div>
         </div>
@@ -121,23 +125,23 @@ export default function Contaduria() {
         <div className="mision-section">
           <div className="container mision-container">
             <div className="col-lg-4 mision-header-img-section" data-aos="flip-left">
-              <svg className="icon-organizacion"></svg>
+              <img src="https://via.placeholder.com/300" alt="placeholder"></img>
             </div>
             <div className="col-lg-8">
-              <h2 className="mision-title">Organización empresaria</h2>
+              <h2 className="mision-title">Lorem ipsum dolor sit amet</h2>
               <p className="mision-text">
                 <ul>
                   <li data-aos="fade-down">
-                  Diseño de estructura administrativa. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
                   </li>
                   <li data-aos="fade-down">
-                  Asesoramiento, gestión, seguimiento de: auditorías, verificaciones, conciliaciones, litigios judiciales o extrajudiciales hasta su archivo.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
                   </li>
                   <li data-aos="fade-down">
-                  Asesoramiento patrimonial y laboral.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
                   </li>
                   <li data-aos="fade-down">
-                  Asesoramiento financiero y comercial.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id sapien nisl. 
                   </li>
                 </ul>
 
@@ -146,11 +150,8 @@ export default function Contaduria() {
           </div>
         </div>
 
-      <div id="contact"/>
       {/* CONTACT */}
       <Contact />
-
-      {/* FOOTER */}
       <Footer />
     </div>
   )

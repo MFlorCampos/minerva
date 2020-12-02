@@ -58,8 +58,8 @@ function Navbar() {
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <Link className="dropdown-item" to="/contaduria">Contabilidad</Link>
                   <Link className="dropdown-item" to="/finanzas">Finanzas</Link>
-                  <Link className="dropdown-item" to="/tecnologia-en-alimentos">Tecnología en alimentos</Link>
-                  <Link className="dropdown-item" to="/imagen-corporativa">Imagen Corporativa</Link>
+                  <Link className="dropdown-item" to="/tecnologia">Tecnología en alimentos</Link>
+                  <Link className="dropdown-item" to="/imagen">Imagen Corporativa</Link>
                 </div>
               </li>
             
