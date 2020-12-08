@@ -9,6 +9,7 @@ export default function Contact() {
     emailjs.sendForm('service_4hm0643', 'template_akkq7ci', e.target, 'user_ZPI3jPgXBrg1CVjYXGDts')
       .then((result) => {
           console.log(result.text);
+          alert("Mensaje enviado!");
       }, (error) => {
           console.log(error.text);
       });
