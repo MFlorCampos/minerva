@@ -892,6 +892,18 @@
         }
     }
 /* 9. CONTACT SECTION */
+    .mensajeEnviado{
+        display: block!important;
+        color: green;
+        border: 1px solid green;
+        padding: 5px;
+        border-radius: 30px;
+        text-align: center;
+        width: 50%;
+    }
+    .mensaje{
+        display: none;
+    }
     .contact-section{
         padding-top: 55px;
         padding-bottom: 90px;
@@ -944,6 +956,9 @@
         }
         .contact-title-section{
             text-align: center;
+        }
+        .mensajeEnviado{
+            width: 100%;
         }
     }
 /* 10. FOOTER SECTION */

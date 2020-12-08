@@ -9,7 +9,8 @@ export default function Contact() {
     emailjs.sendForm('service_4hm0643', 'template_akkq7ci', e.target, 'user_ZPI3jPgXBrg1CVjYXGDts')
       .then((result) => {
           console.log(result.text);
-          alert("Mensaje enviado!");
+          var enviado = document.getElementById("mensajeEnviado");
+          enviado.classList.add("mensajeEnviado");
       }, (error) => {
           console.log(error.text);
       });
@@ -75,6 +76,7 @@ export default function Contact() {
                   </div>
                 </div>
               </div>
+              <label className="mensaje" id="mensajeEnviado">Mensaje enviado con éxito!</label>
               <div className="text-center text-md-left">
                 <button type="submit" value="Send" className="learn-more-btn" style={{border: 'none'}}>Enviar</button>
               </div>
