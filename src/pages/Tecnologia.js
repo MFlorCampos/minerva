@@ -5,6 +5,7 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import OneLiner from '../components/DestacadosFinanzas'
 
+
 export default function Finanzas() {
   window.scrollTo( 0, 0);
   return (

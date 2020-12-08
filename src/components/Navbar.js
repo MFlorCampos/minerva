@@ -50,12 +50,12 @@ function Navbar() {
                 title={"Mision"}
                 link={"/#mision"}
               />
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <p className="nav-link-number">04</p>
                   <p className="nav-link-menu">Servicios</p>
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <Link className="dropdown-item" to="/contaduria">Contabilidad</Link>
                   <Link className="dropdown-item" to="/finanzas">Finanzas</Link>
                   <Link className="dropdown-item" to="/tecnologia">Tecnología en alimentos</Link>
