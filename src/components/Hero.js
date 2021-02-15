@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const copy = [
   { title: 'Aseguramos el éxito y la continuidad', bg: '/assets/images/banner2.jpg' },
-  { title: 'Generamos vínculos para toda la vida', bg: '/assets/images/banner.jpg' },
+  { title: 'Generamos vínculos para toda la vida', bg: '/assets/images/banner3.jpg' },
 ]
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
       setBg(cp.bg)
       setTitle(cp.title)
       flag = !flag
-    }, 5000)
+    }, 8000)
     return () => clearInterval(interval)
   }, [])
 
@@ -32,7 +32,7 @@ export default function Hero() {
             href="#contact"
             data-aos="zoom-in"
           >
-            Contactenos
+            Contáctenos
           </a>
         </div>
       </div>

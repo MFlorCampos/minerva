@@ -201,7 +201,7 @@
     .header{
         display: flex;
         width: 100%;
-        background-image: url("/assets/images/banner.jpg");
+        background-image: url("/assets/images/banner3.jpg");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
@@ -209,7 +209,7 @@
         padding: 250px 0 200px 0;
         justify-content: center;
         align-items: center;
-        transition: background-image ease 1s;
+        transition: none;
     }
     .header-container{
         display: flex;
@@ -387,6 +387,8 @@
     }
     .services-header-img-section img{
         width: 100%;
+        object-fit: cover;
+        height: 100%;
     }
     .services-title-section{
         display: flex;
@@ -487,6 +489,8 @@
 }
 .mision-header-img-section img{
     width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 .mision-title-section{
     display: flex;
@@ -562,7 +566,17 @@
     .mision-title{
         font-size: 25px;
     }
-}    
+} 
+/* ICONS YELLOW */  
+.yellow{
+    color: #d69a2d!important;
+}
+.icons-yellow .strategy-card-section .strategy-card .fontawesome-icon{
+    color: #d69a2d;
+}
+.icons-yellow .strategy-card-section .strategy-card h2 {
+    color: #d69a2d;
+}
 /* 6. PRICING SECTION */  
     .pricing-section{
         display: flex;
@@ -1147,7 +1161,7 @@
     padding-bottom: 8vh;
 }
 .header-template{
-    background-image: url(https://via.placeholder.com/1200x600);
+  /*  background-image: url(https://via.placeholder.com/1200x600);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

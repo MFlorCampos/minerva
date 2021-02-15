@@ -4,9 +4,15 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import OneLiner from '../components/DestacadosContaduria'
+/*import OneLiner from '../components/DestacadosContaduria'*/
 
-const conflictos = ['Societarios', 'Económicos', 'Patrimoniales', 'Laborales', 'Fiscales', 'Previsionales', 'Comerciales']
+const conflictos = ['Asesoramiento impositivo y previsional',
+ 'Análisis del impacto fiscal sobre nuevos negocios e inversiones nacionales e internacionales.', 
+ 'Asesoramiento en reorganización de empresas.', 
+ 'Planificación fiscal.', 
+ 'Estudios de precios de transferencia y defensa por ajustes.', 
+ 'Atención de inspecciones de los organismos fiscales (nacionales, provinciales y municipales).', 
+ 'Formulación de consultas vinculantes.']
 export default function Contaduria() {
   window.scrollTo( 0, 0);
   return (
@@ -20,12 +26,8 @@ export default function Contaduria() {
         <div className="header-subpage">
           <div className="container header-container">
             <div className="col-lg-12 header-title-section">
-              <h1 className="header-title-subpage" data-aos="zoom-in">Contaduría</h1>
+              <h1 className="header-title-subpage" data-aos="zoom-in">Asesoramiento contable impositivo</h1>
               <p className="header-title-text" data-aos="zoom-in">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur id sapien nisl. Nulla sit amet dapibus est. Fusce
-                velit nulla, vulputate sit amet scelerisque sed, pellentesque
-                vitae nisl.
               </p>
               <div className="learn-more-btn-section">
                 <a
@@ -33,14 +35,14 @@ export default function Contaduria() {
                   href="#services"
                   data-aos="zoom-in"
                 >
-                  Contactenos
+                  Contáctenos
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+      {/*
       <div className="blog-section">
         <div className="container blog-container">
           <div className="blog-title-section">
@@ -49,11 +51,11 @@ export default function Contaduria() {
         </div>
       </div>
       <OneLiner />
-
+      */}
       <div className="services-section">
           <div className="container services-container">
             <div className="col-lg-8 services-title-section">
-              <h2 className="services-title">Prevención y resolución de conflictos</h2>
+              <h2 className="services-title">Impuestos</h2>
               <p className="services-text">
                 
                 <ul>
@@ -76,24 +78,21 @@ export default function Contaduria() {
               <svg className="icon-decision"></svg>
             </div>
             <div className="col-lg-8">
-              <h2 className="mision-title">Para que puedan tomar las mejores decisiones</h2>
+              <h2 className="mision-title">Laboral y Previsional</h2>
               <p className="mision-text">
               <ul>
                   <li data-aos="fade-down">
-                  Procesamiento de datos, preparación, elaboración y análisis crítico de informes. 
+                    Asesoramiento general de relaciones laborales y resoluciones de conflictos.
                   </li>
                   <li data-aos="fade-down">
-                    Presentación de declaraciones y liquidaciones. 
-                  </li>
-                  <li data-aos="fade-down">
-                    Confección de Estados Contables externos e informes internos
+                    Liquidaciones de sueldos, cargas sociales y sindicales. 
                   </li>
                 </ul>
               </p>
             </div>
           </div>
         </div>
-      
+      {/*
         <div className="services-section">
           <div className="container services-container">
             <div className="col-lg-8 services-title-section">
@@ -119,6 +118,7 @@ export default function Contaduria() {
 
         <div id="mision" />
         {/* SERVICES */}
+      {/*  
         <div className="mision-section">
           <div className="container mision-container">
             <div className="col-lg-4 mision-header-img-section" data-aos="flip-left">
@@ -146,7 +146,7 @@ export default function Contaduria() {
             </div>
           </div>
         </div>
-
+      */}  
       <div id="contact"/>
       {/* CONTACT */}
       <Contact />

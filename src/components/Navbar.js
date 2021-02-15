@@ -56,10 +56,10 @@ function Navbar() {
                   <p className="nav-link-menu">Servicios</p>
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link className="dropdown-item" to="/contaduria">Contabilidad</Link>
-                  <Link className="dropdown-item" to="/finanzas">Finanzas</Link>
+                  <Link className="dropdown-item" to="/contaduria">Asesoramiento contable impositivo</Link>
+                  <Link className="dropdown-item" to="/finanzas">Auditoría y Finanzas</Link>
                   <Link className="dropdown-item" to="/tecnologia">Tecnología en alimentos</Link>
-                  <Link className="dropdown-item" to="/imagen">Imagen Corporativa</Link>
+                  <Link className="dropdown-item" to="/RH">Recursos Humanos</Link>
                 </div>
               </li>
             

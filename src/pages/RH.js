@@ -3,9 +3,9 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import OneLiner from '../components/DestacadosFinanzas'
+/*import OneLiner from '../components/DestacadosFinanzas'*/
 
-export default function Imagen() {
+export default function RH() {
   window.scrollTo( 0, 0);
   return (
     <div>
@@ -18,27 +18,15 @@ export default function Imagen() {
         <div className="header-template">
           <div className="container header-container">
             <div className="col-lg-12 header-title-section">
-              <h1 className="header-title-subpage" data-aos="zoom-in">Imagen Corporativa</h1>
+              <h1 className="header-title-subpage" data-aos="zoom-in">Recursos Humanos</h1>
               <p className="header-title-text" data-aos="zoom-in">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur id sapien nisl. Nulla sit amet dapibus est. Fusce
-                velit nulla, vulputate sit amet scelerisque sed, pellentesque
-                vitae nisl.
+                Sitio en construcción
               </p>
-              <div className="learn-more-btn-section">
-                <a
-                  className="nav-link learn-more-btn btn-invert"
-                  href="#services"
-                  data-aos="zoom-in"
-                >
-                  Contactenos
-                </a>
-              </div>
             </div>
           </div>
         </div>
       </div>
-
+    {/*
       <div className="blog-section">
         <div className="container blog-container">
           <div className="blog-title-section">
@@ -74,6 +62,7 @@ export default function Imagen() {
 
         <div id="mision" />
         {/* SERVICES */}
+        {/* 
         <div className="mision-section">
           <div className="container mision-container">
             <div className="col-lg-4 mision-header-img-section" data-aos="flip-left">
@@ -123,6 +112,7 @@ export default function Imagen() {
 
         <div id="mision" />
         {/* SERVICES */}
+        {/* 
         <div className="mision-section">
           <div className="container mision-container">
             <div className="col-lg-4 mision-header-img-section" data-aos="flip-left">
@@ -150,7 +140,7 @@ export default function Imagen() {
             </div>
           </div>
         </div>
-
+      */}
       {/* CONTACT */}
       <Contact />
       <Footer />

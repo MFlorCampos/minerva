@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './pages/Home'
 import Contaduria from './pages/Contaduria'
 import Finanzas from './pages/Finanzas'
-import Imagen from './pages/Imagen'
+import RH from './pages/RH'
 import Tecnologia from './pages/Tecnologia'
 
 import {
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/contaduria" component={Contaduria} />
         <Route path="/finanzas" component={Finanzas} />
-        <Route path="/imagen" component={Imagen} />
+        <Route path="/RH" component={RH} />
         <Route path="/tecnologia" component={Tecnologia} />
       </Switch>
     </Router>
