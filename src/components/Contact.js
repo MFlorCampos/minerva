@@ -5,8 +5,24 @@ export default function Contact() {
 
   function sendEmail(e){
     e.preventDefault();
+    console.log(e.target.dropdown.value);
+    var dropdown = parseInt(e.target.dropdown.value);
+    let emailTo = "";
+    switch (dropdown) {
+      case 1:
+      case 2:
+        emailTo = 'template_akkq7ci';
+        break;
+        
+      default:  
+      case 3:
+      case 4:
+        emailTo = 'template_k5kyo5g';
+        break;
+    }
+    console.log(emailTo);
 
-    emailjs.sendForm('service_4hm0643', 'template_akkq7ci', e.target, 'user_ZPI3jPgXBrg1CVjYXGDts')
+    emailjs.sendForm('service_4hm0643', emailTo, e.target, 'user_ZPI3jPgXBrg1CVjYXGDts')
       .then((result) => {
           console.log(result.text);
           var enviado = document.getElementById("mensajeEnviado");
@@ -14,7 +30,8 @@ export default function Contact() {
       }, (error) => {
           console.log(error.text);
       });
-      e.target.reset()
+    e.target.reset()
+
   }
 
   return (
@@ -62,15 +79,13 @@ export default function Contact() {
                 <div className="col-md-12">
                   <div className="md-form mb-0">
                     <div className="dropdown servicioacontratar">
-                      <button className="btn btn-secondary dropdown-toggle col-md-12" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      ¿Por qué servicio nos contacta?
-                      </button>
-                      <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button className="dropdown-item" type="button">Asesoramiento Contable Impositivo</button>
-                        <button className="dropdown-item" type="button">Auditoría y Finanzas</button>
-                        <button className="dropdown-item" type="button">Tecnología en Alimentos</button>
-                        <button className="dropdown-item" type="button">Recursos Humanos</button>
-                      </div>
+                      <select className="btn btn-secondary col-md-12" id="dropdown_service" name="dropdown">
+                        <option hidden value="">¿Por qué servicio nos contacta?</option>
+                        <option className="dropdown-item" type="button" value="1">Asesoramiento Contable Impositivo</option>
+                        <option className="dropdown-item" type="button" value="2">Auditoría y Finanzas</option>
+                        <option className="dropdown-item" type="button" value="3">Tecnología en Alimentos</option>
+                        <option className="dropdown-item" type="button" value="4">Recursos Humanos</option>
+                      </select>
                     </div>
                   </div>
                 </div>
@@ -86,7 +101,7 @@ export default function Contact() {
               </div>
               <label className="mensaje" id="mensajeEnviado">Mensaje enviado con éxito!</label>
               <div className="text-center text-md-left">
-                <button type="submit" value="Send" className="learn-more-btn" style={{border: 'none'}}>Enviar</button>
+                <button className="learn-more-btn" style={{border: 'none'}}>Enviar</button>
               </div>
           </form>
         </div>
