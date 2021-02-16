@@ -29,7 +29,13 @@ export default function Home() {
       {/* WRAPPER */}
       <div className="wrapper">
         <Hero />
-
+        <div className="blog-section">
+          <div className="container blog-container">
+            <div className="blog-title-section">
+              <h2 className="title-oneliner">Lo que nuestros clientes valoran</h2>
+            </div>
+          </div>
+        </div>
         <OneLiner  />
         
 
@@ -68,7 +74,7 @@ export default function Home() {
               <img src="/assets/images/mision.jpg" alt="mision" />
             </div>
             <div className="col-lg-5 offset-lg-1 mision-title-section">
-              <h2 className="mision-title" data-aos="fade-down">Nuestra Mision</h2>
+              <h2 className="mision-title" data-aos="fade-down">Nuestra Visión y Misión</h2>
               <p className="mision-text" data-aos="fade-down">
                   Nos involucramos con cada organización para crecer junto a ella.<br />
               </p>
@@ -94,7 +100,7 @@ export default function Home() {
         <div className="blog-section services-section">
           <div className="container blog-container">
             <div className="blog-title-section">
-              <h2 className="blog-title yellow">Enfoques</h2>
+              <h2 className="title-oneliner yellow">Enfoques</h2>
             </div>
           </div>
         </div>
@@ -135,3 +141,4 @@ export default function Home() {
     </div>  
   )
 }
+
