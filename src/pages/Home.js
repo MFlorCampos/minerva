@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="blog-section">
+        <div className="blog-section services-section">
           <div className="container blog-container">
             <div className="blog-title-section">
               <h2 className="blog-title yellow">Enfoques</h2>
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="strategy-section">
+        <div className="services-section">
           <div className="container strategy-container icons-yellow" data-aos="fade-up">
             <OneLinerItem
               icon = {faChartBar}
