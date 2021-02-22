@@ -1123,6 +1123,10 @@
     }
     .footer-social-media-icon .fa:hover{
         color: #002B49;    }
+    .contact-footer:hover{
+        color: #002B49;
+        text-decoration: none;
+    }    
     .footer-credits {
         display: flex;
         justify-content: center;
@@ -1183,7 +1187,7 @@
     padding-bottom: 8vh;
 }
 .icon-prevencion{
-    background-image: url(../images/escalar-montanas.svg);
+    background-image: url(../images/cheque.svg);
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1192,7 +1196,7 @@
     width: 100%;
 }
 .icon-decision{
-    background-image: url(../images/engranajes-mecanicos.svg);
+    background-image: url(../images/user.svg);
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1201,7 +1205,7 @@
     width: 100%;
 }
 .icon-procesos{
-    background-image: url(../images/lampara.svg);
+    background-image: url(../images/site-map.svg);
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1210,7 +1214,43 @@
     width: 100%;
 }
 .icon-organizacion{
-    background-image: url(../images/rompecabezas.svg);
+    background-image: url(../images/folder.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    height: 250px;
+    width: 100%;
+}
+.icon-desarrollo{
+    background-image: url(../images/play-button.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    height: 250px;
+    width: 100%;
+}
+.icon-calidad{
+    background-image: url(../images/quality.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    height: 250px;
+    width: 100%;
+}
+.icon-gestion{
+    background-image: url(../images/folder.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    height: 250px;
+    width: 100%;
+}
+.icon-rh{
+    background-image: url(../images/group.svg);
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1240,11 +1280,32 @@
         height: 150px;
         width: 100%;
     }
+    .icon-desarrollo{
+        height: 150px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .icon-rh{
+        height: 150px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .icon-calidad{
+        height: 150px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .icon-gestion{
+        height: 150px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
     .header-title-subpage{
         font-size: 45px;
     }
     .header-template{
-        background-image: url(https://via.placeholder.com/360x600);
+        /*background-image: url(https://via.placeholder.com/360x600);*/
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

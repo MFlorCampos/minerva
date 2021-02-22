@@ -26,7 +26,7 @@ export default function Finanzas() {
               <div className="learn-more-btn-section">
                 <a
                   className="nav-link learn-more-btn btn-invert"
-                  href="#services"
+                  href="#contact"
                   data-aos="zoom-in"
                 >
                   Contáctenos
@@ -59,7 +59,7 @@ export default function Finanzas() {
               </p>
             </div>
             <div className="col-lg-4 services-header-img-section" data-aos="flip-left">
-              <svg className="icon-decision"></svg>
+              <svg className="icon-desarrollo"></svg>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Finanzas() {
         <div className="mision-section">
           <div className="container mision-container">
             <div className="col-lg-4 mision-header-img-section" data-aos="flip-left">
-              <svg className="icon-procesos"></svg>
+              <svg className="icon-calidad"></svg>
             </div>
             <div className="col-lg-8">
               <h2 className="mision-title">Calidad y Seguridad Alimentaria</h2>
@@ -95,7 +95,7 @@ export default function Finanzas() {
               </p>
             </div>
             <div className="col-lg-4 services-header-img-section" data-aos="flip-left">
-              <svg className="icon-prevencion"></svg>
+              <svg className="icon-gestion"></svg>
             </div>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col-lg-6 offset-lg-1 services-header-img-section">
-              <img src="/assets/images/nosotros.jpg" alt="sobre nosotros" />
+              <img src="/assets/images/banner.jpg" alt="sobre nosotros" />
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div className="container mision-container">
             <div className="col-lg-6 mision-header-img-section">
-              <img src="/assets/images/mision.jpg" alt="mision" />
+              <img src="/assets/images/vision.jpg" alt="mision" />
             </div>
             <div className="col-lg-5 offset-lg-1 mision-title-section">
               <h2 className="mision-title" data-aos="fade-down">Nuestra Visión y Misión</h2>

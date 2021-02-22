@@ -24,7 +24,7 @@ export default function Finanzas() {
               <div className="learn-more-btn-section">
                 <a
                   className="nav-link learn-more-btn btn-invert"
-                  href="#services"
+                  href="#contact"
                   data-aos="zoom-in"
                 >
                   Contáctenos

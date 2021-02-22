@@ -19,9 +19,12 @@ export default function RH() {
           <div className="container header-container">
             <div className="col-lg-12 header-title-section">
               <h1 className="header-title-subpage" data-aos="zoom-in">Recursos Humanos</h1>
-              <p className="header-title-text" data-aos="zoom-in">
-                Sitio en construcción
-              </p>
+              <div className="services-header-img-section" data-aos="flip-left">
+                <svg className="icon-rh"></svg>
+                <p className="header-title-text" data-aos="zoom-in">
+                  Sitio en construcción
+                </p>
+              </div>
             </div>
           </div>
         </div>

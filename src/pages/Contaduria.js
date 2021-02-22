@@ -32,7 +32,7 @@ export default function Contaduria() {
               <div className="learn-more-btn-section">
                 <a
                   className="nav-link learn-more-btn btn-invert"
-                  href="#services"
+                  href="#contact"
                   data-aos="zoom-in"
                 >
                   Contáctenos
