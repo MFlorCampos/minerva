@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero(props) { 
   const { copy } = props;
-  console.log(props);
+
   return (
     copy.map( (e) => (
       <div className={`${e.class} header`} style={{ backgroundImage: `url('${e.bg}')` }}>
