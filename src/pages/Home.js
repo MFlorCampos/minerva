@@ -6,7 +6,7 @@ import OneLiner from '../components/OneLiner'
 //import News from '../components/News'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import Hero from '../components/Hero'
+import HeroContainer from '../components/HeroContainer'
 import AOS from 'aos';
 import OneLinerItem from '../components/OneLinerItem'
 import { faEye } from '@fortawesome/free-regular-svg-icons'
@@ -17,7 +17,10 @@ import { faChartBar, faArrowsAlt, faBinoculars  } from '@fortawesome/free-solid-
 import 'aos/dist/aos.css'; 
 AOS.init();
 
-
+let copy = [
+  { title: 'Aseguramos el éxito y la continuidad', bg: '/assets/images/minerva-desktop.png', class: 'active' },
+  { title: 'Generamos vínculos para toda la vida', bg: '/assets/images/banner3.jpg', class: "" },
+]
 export default function Home() {
 
   return (
@@ -28,7 +31,7 @@ export default function Home() {
       <div id="top" />
       {/* WRAPPER */}
       <div className="wrapper">
-        <Hero />
+        <HeroContainer copy={copy} />
         <div className="blog-section">
           <div className="container blog-container">
             <div className="blog-title-section">
@@ -58,7 +61,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col-lg-6 offset-lg-1 services-header-img-section">
-              <img src="/assets/images/banner.jpg" alt="sobre nosotros" />
+              <img src="/assets/images/minerva-desktop-2.png" alt="sobre nosotros" />
             </div>
           </div>
         </div>
@@ -71,7 +74,7 @@ export default function Home() {
           </div>
           <div className="container mision-container">
             <div className="col-lg-6 mision-header-img-section">
-              <img src="/assets/images/vision.jpg" alt="mision" />
+              <img src="/assets/images/edificios2.png" alt="mision" />
             </div>
             <div className="col-lg-5 offset-lg-1 mision-title-section">
               <h2 className="mision-title" data-aos="fade-down">Nuestra Visión y Misión</h2>

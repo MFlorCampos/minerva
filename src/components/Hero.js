@@ -1,30 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
-const copy = [
-  { title: 'Aseguramos el éxito y la continuidad', bg: '/assets/images/banner2.jpg' },
-  { title: 'Generamos vínculos para toda la vida', bg: '/assets/images/banner3.jpg' },
-]
-
-export default function Hero() {
-  const [bg, setBg] = useState(copy[0].bg)
-  const [title, setTitle] = useState(copy[0].title)
-
-  useEffect(() => {
-    let flag = false;
-    const interval = setInterval(() => {
-      const cp = copy[flag ? 0 : 1]
-      setBg(cp.bg)
-      setTitle(cp.title)
-      flag = !flag
-    }, 8000)
-    return () => clearInterval(interval)
-  }, [])
-
+export default function Hero(props) { 
+  const { copy } = props;
+  console.log(props);
   return (
-    <div className="header" style={{ backgroundImage: `url('${bg}')` }}>
+    copy.map( (e) => (
+      <div className={`${e.class} header`} style={{ backgroundImage: `url('${e.bg}')` }}>
       <div className="col-lg-8 header-title-section" >
         <h1 className="header-title" data-aos="zoom-in">Ideas y soluciones para empresas</h1>
-        <p className="header-subtitle" data-aos="zoom-in">{title}</p>
+        <p className="header-subtitle" data-aos="zoom-in">{e.title}</p>
 
         <div className="learn-more-btn-section">
           <a
@@ -37,5 +21,6 @@ export default function Hero() {
         </div>
       </div>
     </div>
+    ))
   )
 }

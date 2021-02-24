@@ -202,10 +202,12 @@
     }
 
 /* 3. HEADER */
-    .header{
+    .header.active{
         display: flex;
+    }
+    .header{
+        display: none;
         width: 100%;
-        background-image: url("/assets/images/banner3.jpg");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
