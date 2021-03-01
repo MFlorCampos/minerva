@@ -9,10 +9,7 @@ const HeroContainer = (props) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-          //const cp = copy[flag ? 0 : 1]
-          //setBg(cp.bg)
-          //setTitle(cp.title)
-          //flag = !flag
+
           let nextActive = active === 0 ? active + 1 : active - 1;
 
           copy[active].class = ""
@@ -20,7 +17,7 @@ const HeroContainer = (props) => {
           copy[nextActive].class = "active"
           setCopy([...copy])
 
-        }, 8000)
+        }, 800000)
         return () => clearInterval(interval)
       })
       return copyState ? <Hero copy={[...copyState]} /> : null

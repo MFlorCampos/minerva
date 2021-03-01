@@ -19,7 +19,7 @@ AOS.init();
 
 let copy = [
   { title: 'Aseguramos el éxito y la continuidad', bg: '/assets/images/minerva-desktop.png', class: 'active' },
-  { title: 'Generamos vínculos para toda la vida', bg: '/assets/images/banner3.jpg', class: "" },
+  { title: 'Generamos vínculos para toda la vida', bg: '/assets/images/minerva-desktop.png', class: "" },
 ]
 export default function Home() {
 
