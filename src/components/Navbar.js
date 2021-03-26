@@ -64,7 +64,7 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="http://crminerva.com.ar/login.php">
+              <a className="nav-link" href="https://crminerva.com.ar/login.php">
                 <p class="nav-link-number">05</p>
                 <p class="nav-link-menu">Área empresas</p>
               </a>
