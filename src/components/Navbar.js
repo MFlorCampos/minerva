@@ -36,23 +36,19 @@ function Navbar() {
         >
         <ul className="navbar-nav menu-navbar-nav">
             <NavbarItem
-              number={"01"}
               title={"Inicio"}
               link={"/#top"}
             />
             <NavbarItem
-              number={"02"}
               title={"Quienes Somos"}
               link={"/#nosotros"}
             />
             <NavbarItem
-              number={"03"}
               title={"Mision"}
               link={"/#mision"}
             />
             <li className="nav-item dropdown">
               <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <p className="nav-link-number">04</p>
                 <p className="nav-link-menu">Servicios</p>
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -65,7 +61,6 @@ function Navbar() {
 
             <li className="nav-item">
               <a className="nav-link" href="https://crminerva.com.ar/login.php">
-                <p class="nav-link-number">05</p>
                 <p class="nav-link-menu">Área empresas</p>
               </a>
             </li>

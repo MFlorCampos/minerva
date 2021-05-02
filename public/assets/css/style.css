@@ -193,14 +193,29 @@
 	}
     @media screen and (max-width: 575.98px){
         .navbar{
-            padding-top: 0;
-            padding-bottom: 0;
+            padding: .5rem 1rem;
         }
         .menu-navbar-nav {
             padding-bottom: 10px;
         }
     }
-
+    @media screen and (max-width: 600px){
+        .dropdown-item {
+            display: inline-grid;
+            font-family: 'Poppins';
+            font-size: 14px;
+        }
+        .header-subpage {
+            display: block!important;
+            margin-top: 12vh!important;
+            padding-top: 6vh!important;
+            padding-bottom: 8vh!important;
+            height: auto!important;
+         }
+         .header-title-subpage{
+             font-size: 2.3em!important;
+         }
+    }
 /* 3. HEADER */
     .header.active{
         display: flex;
@@ -1315,16 +1330,10 @@
         background-position: center;
         background-size: cover;
         margin-top: 11vh;
-        height: 88vh;
+        height: auto;
     }
     .nav-item .nav-link {
         text-align: center;
     }
-    .header-subpage {
-        display: flex;
-        margin-top: 12vh;
-        padding-top: 6vh;
-        padding-bottom: 8vh;
-        height: 85vh;
-    }
+
 }
